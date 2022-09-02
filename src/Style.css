@@ -1,0 +1,234 @@
+body {
+    background-color: #f0f2f5;
+}
+article {
+    display: flex;
+    align-content: space-between;
+    margin: 0px 40px;
+    height: 500px;
+    width: 300px;
+    padding-top: 72px;
+}
+ .div_Logo {
+    border: none;
+    width: 400px;
+ }
+
+.div_Risk {
+    width: 380px;
+    border-bottom: 1px solid #d8dadb;
+    margin: 16px 16px;
+}
+#fig_Logo, article img {
+    width: 302px;
+    height: 110px;
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg);
+}
+
+#fig_Logo:hover {
+    background-image: url(/images/Meta.jfif);
+    background-size: 302px 110px;
+    background-position: 20px 20px 20px 20px;
+}
+
+h2 {
+    font-size: 28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3 {
+    font-size: 34px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+.div_Login {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ffffff;
+    margin: 40px;
+    width: 360px;
+    height: 300px;
+    box-shadow: 0px 0px 8px 1px rgb(187, 187, 187);
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;    
+}
+.div_Input-1, .div_Input-2 {
+padding: 6px 0px;
+}
+
+.div_Login input {
+    width: 360px;
+    font-size: 17px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #d8dadb;
+    padding-left: 15px;
+}
+
+.div_Login input:focus {
+    border:1px solid #1877F2;
+}
+
+#new_Account_btn {
+    background-color: #42B72A;
+    height: 50px;
+    width: 166px;
+
+}
+
+#login_btn {
+    background-color: #1877F2;
+    height: 50px;
+    width: 360px;
+}
+
+#login_btn, #new_Account_btn, #createAccmodal {
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#Password + button,
+#Password + button:hover,
+#Password + button:focus {
+  all: unset;
+  position: relative;
+  margin-left: -30px;
+  cursor: pointer;
+}
+/*links*/
+.div_Login a {
+    margin-top: 16px;
+}
+.div_Login a, .div_Login a:active {
+    color: #1877F2;  
+}
+
+.create_a_pag a, .create_a_pag a:active {
+    color: #000000;
+}
+
+.modal_create a, .modal_create a:active {
+    color: #385898;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*End*/
+
+/*window modal*/
+
+.body_Modal_all {
+    display: block;
+    position: relative;
+}
+.modal_create {
+    margin-left: 40px;
+    width: 435px;
+    height: 455px;
+    box-shadow: 3px 2px 8px 1px rgb(187, 187, 187);
+    background-color: #ffffff;
+    border-radius: 10px; 
+}
+ header {
+    height: 90px;
+    width: 403px;
+    border-bottom: 1px solid #ccd0d5;
+    padding: 10px 16px;
+    text-align: left;
+ }
+.modalTop {
+    width: 380px;
+    height: 100px;
+}
+.div_Name input {
+width: 195;
+height: 40;
+}
+.div_I1_B, .div_I1_G {
+    width: 400px;
+    height: 20px;
+}
+.i1_Information, .i2_Information {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/EV7ny501e-i.png);
+    background-size: 12px 12px;
+    background-position: 0 -60px;
+}
+.sign_close {
+    height: 50px;
+    width: 410px;
+}
+header button {
+    height: 26px;
+    width: 26px;
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/11W0xEwKS62.png);
+    background-size: 25px;
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 380px;
+}
+
+.body_Modal {
+    padding: 16px;
+    height: 327px;
+}
+.modal_create input, .email_New input, .password_New input{
+    height: 40px; 
+    border-color: #ccd0d5;
+}
+
+#createAccmodal {
+    background-color: #39ad22;
+    height: 36px;
+    width: 194px;
+}
+
+.birthday_Client select {
+    height: 10px;
+    width: 20px;
+}
+
+label {
+    box-sizing: border-box;
+    padding: 0 28px 0 10px;
+    border: 1px solid #ccd0d5;
+    height: 36px;
+    margin: 8px 6px 6px;
+    padding: 0;
+    position: relative;
+    width: auto;
+    background-color: #fff;
+    display: inline-block;
+    flex: 1 0 auto;
+}
+.span_G_S {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px -6px -6px;
+    width: 411px;
+}
+.email_New, .password_New {
+    margin-bottom: 10px;
+}
+
+.email_New input, .password_New input {
+    width: 400px;
+}
+.text_Font p{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*End*/
